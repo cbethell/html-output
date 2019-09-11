@@ -1,14 +1,19 @@
 # OpenPBTA-analysis 
-## Filing a PR checklist
+## PR checklist
 
-- [ ] [Fork](https://help.github.com/en/articles/fork-a-repo) the repo. You only need to do this step once, continue to the third step of this list if you have already done this. 
+- [ ] [Fork](https://help.github.com/en/articles/fork-a-repo) the repo. 
+You only need to do this step once, continue to the third step of this list if you have already done this. 
 - [ ] Make the original repo, `AlexsLemonade/OpenPBTA-analysis`, an [upstream repository](https://help.github.com/en/articles/configuring-a-remote-for-a-fork).
-- [ ] Checkout a [new branch](https://gist.github.com/markSci5/5916003) to make changes on. **WAIT** Is your master branch up to date with the upstream repo?  
-Try `git status` to check. If it's not, go [here](https://help.github.com/en/articles/syncing-a-fork) before creating your new branch. Remember to `git push` when you are done. 
-- [ ] Did you make numerous changes, too many for one pull request? Then let's create [stacked pull requests](https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/CONTRIBUTING.md#creating-stacked-pull-requests). 
+- [ ] Checkout a [new branch](https://gist.github.com/markSci5/5916003) to make changes on. 
+**WAIT** Is your master branch up to date with the upstream repo?  
+Try `git status` to check. 
+If it's not, go [here](https://help.github.com/en/articles/syncing-a-fork) before creating your new branch. 
+Remember to `git push` when you are done. 
+- [ ] Did you make numerous changes, too many for one pull request? 
+Then let's create [stacked pull requests](https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/CONTRIBUTING.md#creating-stacked-pull-requests). 
 - [ ] Now that you have committed changes, be sure to write a detailed summary of the changes by following this [template](https://github.com/AlexsLemonade/OpenPBTA-analysis/blob/master/.github/PULL_REQUEST_TEMPLATE.md).     
 
-Now check to make sure you have done the following before filing the PR: 
+Now check to ensure you have done the following before filing the PR (remember to push any additional changes): 
 
 - [ ] Run a linter (using [styler](http://styler.r-lib.org/) for example)
 - [ ] Set the seed (if applicable)
